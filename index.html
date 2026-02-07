@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AireCool - Soluciones en Climatización</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
-    <script src="https://backend-chatbot-omega.vercel.app/api/chatbot-integration/e4243ad0-262c-4b95-925a-91ea51a703e1/install" async></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Bebas+Neue&display=swap"
+        rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -67,8 +68,17 @@
         }
 
         @keyframes pulse {
-            0%, 100% { transform: scale(1); opacity: 1; }
-            50% { transform: scale(1.1); opacity: 0.8; }
+
+            0%,
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+
+            50% {
+                transform: scale(1.1);
+                opacity: 0.8;
+            }
         }
 
         nav ul {
@@ -116,15 +126,22 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: 
+            background:
                 radial-gradient(circle at 20% 50%, rgba(0, 217, 255, 0.2) 0%, transparent 50%),
                 radial-gradient(circle at 80% 30%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
             animation: float 8s ease-in-out infinite;
         }
 
         @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-20px); }
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
         }
 
         .hero-content {
@@ -182,7 +199,7 @@
             height: 200px;
             background: linear-gradient(145deg, #ffffff, #e0e0e0);
             border-radius: 20px;
-            box-shadow: 
+            box-shadow:
                 0 20px 60px rgba(0, 0, 0, 0.3),
                 inset 0 1px 0 rgba(255, 255, 255, 0.6);
             position: relative;
@@ -190,8 +207,15 @@
         }
 
         @keyframes cooling {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.05); }
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
         }
 
         .ac-unit::before {
@@ -202,18 +226,28 @@
             transform: translate(-50%, -50%);
             width: 80%;
             height: 60%;
-            background: linear-gradient(90deg, 
-                transparent 0%, 
-                rgba(0, 217, 255, 0.3) 50%, 
-                transparent 100%);
+            background: linear-gradient(90deg,
+                    transparent 0%,
+                    rgba(0, 217, 255, 0.3) 50%,
+                    transparent 100%);
             border-radius: 10px;
             animation: airflow 2s linear infinite;
         }
 
         @keyframes airflow {
-            0% { opacity: 0; transform: translate(-50%, -50%) translateX(-100px); }
-            50% { opacity: 1; }
-            100% { opacity: 0; transform: translate(-50%, -50%) translateX(100px); }
+            0% {
+                opacity: 0;
+                transform: translate(-50%, -50%) translateX(-100px);
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+                transform: translate(-50%, -50%) translateX(100px);
+            }
         }
 
         /* Services Section */
@@ -396,6 +430,7 @@
         }
     </style>
 </head>
+
 <body>
     <header>
         <nav>
@@ -413,8 +448,8 @@
         <div class="hero-content">
             <div class="hero-text">
                 <h1>Climatización<br>Profesional</h1>
-                <p>Instalación, mantenimiento y reparación de aires acondicionados. 
-                   Confort garantizado todo el año con la última tecnología.</p>
+                <p>Instalación, mantenimiento y reparación de aires acondicionados.
+                    Confort garantizado todo el año con la última tecnología.</p>
                 <a href="#contacto" class="cta-button">Solicitar Cotización</a>
             </div>
             <div class="hero-image">
@@ -504,5 +539,10 @@
     <footer>
         <p>&copy; 2026 AireCool - Soluciones en Climatización. Todos los derechos reservados.</p>
     </footer>
+    <script
+        src="https://backend-chatbot-omega.vercel.app/api/chatbot-integration/e4243ad0-262c-4b95-925a-91ea51a703e1/install"
+        async>
+    </script>
 </body>
+
 </html>
